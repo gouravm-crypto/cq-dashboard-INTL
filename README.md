@@ -1,18 +1,13 @@
-# CQ Dashboard — International Team · August 2026
+# CQ Dashboard — International Team · September 2026
 
-Interactive quality-audit dashboard for CaratLane's International support team, covering **80 audits** across 8 agents for August 2026.
+Interactive quality-audit dashboard for CaratLane's International Team, covering **74 audits** across 9 agents for September 2026 (audit cycle 26 Aug – 25 Sep 2026).
 
 ## Files
-- `index.html` — main dashboard page (open this in a browser / GitHub Pages)
-- `data.js` — all agent audit data (scores, cases, AOIs, error params)
+- `index.html` — main dashboard page
+- `data.js` — all agent audit data (scores, cases, AOIs, error params). Charts and the agent modal are generated from this file.
 - `charts.js` — Chart.js visualizations (score chart, error distribution, per-agent errors, heatmap)
 - `modal.js` — click-through agent detail modal logic
 - `logo_full.png`, `logo_icon.png` — CaratLane branding
 
 ## Deploying to GitHub Pages
-1. Create a new repo and upload all files in this folder (keep them in the root, not a subfolder).
-2. Go to **Settings → Pages**, set source to the `main` branch / root.
-3. Your dashboard will be live at `https://<username>.github.io/<repo-name>/`.
-
-## Updating for a new month
-Edit `data.js` with the new `AGENTS` object, then update the corresponding numbers in `charts.js` (score chart, doughnut, per-agent errors, heatmap) and the static summary sections in `index.html` (hero stats, score table, key insights, parameter breakdown, footer).
+Upload all files to the repo root, then Settings → Pages → `main` branch / root.
