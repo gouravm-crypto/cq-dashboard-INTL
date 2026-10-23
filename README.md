@@ -1,6 +1,6 @@
-# CQ Dashboard — International Team · September 2026
+# CQ Dashboard — International Team · October 2026
 
-Interactive quality-audit dashboard for CaratLane's International Team, covering **74 audits** across 9 agents for September 2026 (audit cycle 26 Aug – 25 Sep 2026).
+Interactive quality-audit dashboard for CaratLane's International Team, covering **59 audits** across 9 agents for October 2026 (audit cycle 26 Sep – 25 Oct 2026).
 
 ## Files
 - `index.html` — main dashboard page
